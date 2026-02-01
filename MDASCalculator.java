@@ -57,9 +57,7 @@ public class MDASCalculator {
                 } else {
                 System.out.println("Result: " + calculate.divide());
                 break; 
-                }               
-                System.out.println("Result: " + calculate.divide());
-                break;                
+                }                              
             case 3:
                 System.out.println("Result: " + calculate.add());
                 break;
