@@ -15,11 +15,11 @@ class Calculator{
 
     public int add() { //Addition
         return firstNumber + secondNumber;
-    
+    }   
     public int sub() { //Substraction
         return firstNumber - secondNumber;
 
-}
+    }       
 public class MDASCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
