@@ -13,9 +13,13 @@ class Calculator{
         return firstNumber * secondNumber;
     }
 
-    //Add nyo dito operators na gagawin nyo
+    public int add() { //Addition
+        return firstNumber + secondNumber;
+    }   
+    public int sub() { //Substraction
+        return firstNumber - secondNumber;
 
-}
+    }       
 public class MDASCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -43,6 +47,12 @@ public class MDASCalculator {
         switch(choice) {
             case 1:
                 System.out.println("Result: " + calculate.multiply());
+                break;
+            case 3:
+                System.out.println("Result: " + calculate.add());
+                break;
+            case 4:
+                System.out.println("Result: " + calculate.sub());
                 break;
             default:
                 System.out.println("!!!Invalid Option for the Opertion!!! \nPlease Choose from the given above.");
