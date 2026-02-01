@@ -12,14 +12,16 @@ class Calculator{
     public int multiply() { //Para ma multiply
         return firstNumber * secondNumber;
     }
-
+    public int divide () { //Division
+        return firstNumber / secondNumber;
+    }
     public int add() { //Addition
         return firstNumber + secondNumber;
-    
+    }   
     public int sub() { //Substraction
         return firstNumber - secondNumber;
-
-}
+    } 
+}         
 public class MDASCalculator {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -48,6 +50,14 @@ public class MDASCalculator {
             case 1:
                 System.out.println("Result: " + calculate.multiply());
                 break;
+            case 2:
+                if(b == 0){
+                    System.out.println("Cannot divide by 0.");
+                    break;
+                } else {
+                System.out.println("Result: " + calculate.divide());
+                break; 
+                }               
             case 3:
                 System.out.println("Result: " + calculate.add());
                 break;
