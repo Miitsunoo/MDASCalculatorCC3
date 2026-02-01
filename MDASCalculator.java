@@ -51,6 +51,7 @@ public class MDASCalculator {
                 System.out.println("Result: " + calculate.multiply());
                 break;
             case 2:
+<<<<<<< HEAD
                 if(b == 0){
                     System.out.println("Cannot divide by 0.");
                     break;
@@ -58,6 +59,10 @@ public class MDASCalculator {
                 System.out.println("Result: " + calculate.divide());
                 break; 
                 }               
+=======
+                System.out.println("Result: " + calculate.divide());
+                break;                
+>>>>>>> origin/DIVISION_BORDOY
             case 3:
                 System.out.println("Result: " + calculate.add());
                 break;
